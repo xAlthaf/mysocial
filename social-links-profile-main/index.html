@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Social links profile</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <img
+        src="./assets/images/90f849f9-6df6-4378-b248-9ee39c078968 (2).jpg"
+        alt=""
+      />
+      <h1>Althaf <span> Coimbatore, Tamilnadu</span></h1>
+      <p>" Front-end developer."</p>
+      <ul>
+        <li><button id="GitHub">GitHub</button></li>
+        <li><button id="LinkedIn">LinkedIn</button></li>
+        <li><button id="Twitter">Twitter</button></li>
+        <li><button id="Instagram">Instagram</button></li>
+      </ul>
+      <script>
+        var GitHub = document.getElementById("GitHub");
+        var LinkedIn = document.getElementById("LinkedIn");
+        var Twitter = document.getElementById("Twitter");
+        var Instagram = document.getElementById("Instagram");
+
+        GitHub.addEventListener("click", function () {
+          window.open("https://github.com/your-xAlthaf", "_blank");
+        });
+
+        LinkedIn.addEventListener("click", function () {
+          window.open(
+            "https://www.linkedin.com/in/althaf-u-b39078231/",
+            "_blank"
+          );
+        });
+
+        Twitter.addEventListener("click", function () {
+          window.open("https://twitter.com/home", "_blank");
+        });
+
+        Instagram.addEventListener("click", function () {
+          window.open(
+            "https://www.instagram.com/x_althaf_07?igsh=dHJqNXNkaW44YmNi",
+            "_blank"
+          );
+        });
+      </script>
+    </div>
+  </body>
+</html>
