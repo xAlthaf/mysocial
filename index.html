@@ -9,11 +9,10 @@
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="./assets/images/favicon-32x32.png"
     />
 
-    <link rel="stylesheet" href="./styles.css">
-    <title>Frontend Mentor | Social proof section</title>
+    <title>Frontend Mentor | Social links profile</title>
 
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
     <style>
@@ -25,132 +24,50 @@
         color: hsl(228, 45%, 44%);
       }
     </style>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
+    <div class="container">
+      <img
+        src="./assets/images/90f849f9-6df6-4378-b248-9ee39c078968 (2).jpg"
+        alt=""
+      />
+      <h1>Althaf <span> Coimbatore, Tamilnadu</span></h1>
+      <p>" Front-end developer."</p>
+      <ul>
+        <li><button id="GitHub">GitHub</button></li>
+        <li><button id="LinkedIn">LinkedIn</button></li>
+        <li><button id="Twitter">Twitter</button></li>
+        <li><button id="Instagram">Instagram</button></li>
+      </ul>
+      <script>
+        var GitHub = document.getElementById("GitHub");
+        var LinkedIn = document.getElementById("LinkedIn");
+        var Twitter = document.getElementById("Twitter");
+        var Instagram = document.getElementById("Instagram");
 
-    <div class="flexbox"> 
-     
-<div class="first"> 
-  <div class="media-1"> 
+        GitHub.addEventListener("click", function () {
+          window.open("https://github.com/your-xAlthaf", "_blank");
+        });
 
-    <div class="tenthousand">
-      10,000+ of our <br> users love our <br>products.
+        LinkedIn.addEventListener("click", function () {
+          window.open(
+            "https://www.linkedin.com/in/althaf-u-b39078231/",
+            "_blank"
+          );
+        });
+
+        Twitter.addEventListener("click", function () {
+          window.open("https://twitter.com/home", "_blank");
+        });
+
+        Instagram.addEventListener("click", function () {
+          window.open(
+            "https://www.instagram.com/x_althaf_07?igsh=dHJqNXNkaW44YmNi",
+            "_blank"
+          );
+        });
+      </script>
     </div>
-  </div>
-     <div class="container">
-      We only provide great products combined with excellent <br> customer service.
-    See what our satisfied customers are <br> saying about our services.
-     </div>
-
-     
-    </div>
-<!-- ********************************************************************************* -->
-
-<div class="star"> 
- 
-     <div class="rated1">  <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <span> Rated 5 Stars in Reviews</span></div> <br>
-
-     <div class="rated2">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon2" src="./images/icon-star.svg" alt="">
-      <span> Rated 5 Stars in Report Guru</span></div> <br>
-
-
-     <div class="rated3"> <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-      <img class="image-icon1" src="./images/icon-star.svg" alt="">
-       <img class="image-icon3" src="./images/icon-star.svg" alt="">
-        <span>Rated 5 Stars in BestTech</span></div>
-
-    </div>
-  </div>
-
-<!-- ******************************************************************************** -->
- 
-
-<div class="overall"> 
-
-  <div class="althaf"> 
-
-
-<div class="last-try"> 
-
-      <div class="first-box"> 
-      
-<img class="image-colton" src="./images/image-colton.jpg" alt="">
-       <div class="flexbox1"> Colton Smith  <br>
-     <p class="verified">Verified Buyer</p> </div> 
-  </div>
-        
-     <p class="first-paragraph">"We needed the same printed design as <br> the one we had ordered a week prior.
-      Not <br> only did they find the original order, but <br> we also received it in time.
-      Excellent!" </p>  </div> 
-      
-    </div>
-<!-- *********************************************************************************** -->
-
-<div class="second-try"> 
-
-<div class="container"> 
- 
-<img class="image-rene" src="./images/image-irene.jpg" alt="">
-   
-     <div class="irene-roberts">
-      Irene Roberts 
-    <p class="verified2"> Verified Buyer</p> 
-     </div>
-    </div>
-
-     <p class="second-paragraph">"Customer service is always excellent and very quick turn around. Completely
-      delighted with the simplicity of the purchase and the speed of delivery."</p>
-   
-    
-</div>
-<!-- ********************************************************************************** -->
-
-<div class="third-try"> 
- 
-<div class="container2"> 
-
-<img class="anne-icone" src="./images/image-anne.jpg" alt="">
-     <div class="anne-wallace">Anne Wallace 
-      <p class="verified3"> Verified Buyer</p></div>
-  </div>
-     <p class="third-paragraph">"Put an order with this company and can <br> only praise them for the very high <br>
-      standard. Will definitely use them again <br> and recommend them to everyone!" </p>
-
-
-
-
-
-  </div>
-
-
-
-</div>
-</div>
-
- 
-     
-
-    <!-- <div class="attribution">
-      Challenge by
-      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-        >Frontend Mentor</a
-      >. Coded by <a href="#">Your Name Here</a>.
-    </div>
-
-
-
-  
   </body>
 </html>
